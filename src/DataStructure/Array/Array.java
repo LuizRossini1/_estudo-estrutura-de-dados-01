@@ -29,6 +29,16 @@ public class Array {
         return getTotalList();
     }
 
+    //show if it is in the list
+    public boolean have(Car car) {
+        for (int i = 0; i < cars.length; i++) {
+            if (car.equals(cars[i])) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     @Override
     public String toString() {
         return Arrays.toString(cars);
