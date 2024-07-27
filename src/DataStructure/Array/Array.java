@@ -22,6 +22,10 @@ public class Array {
 
     //removing index
     public void remove(int index) {
+        for (int i = index; i < totalList; i++) {
+            this.cars[i] = this.cars[i+1];
+        }
+        totalList--;
     }
 
     //show indexes

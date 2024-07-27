@@ -10,6 +10,8 @@ public class ArrayTest {
 
         list.adding(car1);
         list.adding(car2);
+        list.adding(car3);
+        list.remove(1);
 
         System.out.println(list.have(car3));
         System.out.println(list.show());
