@@ -39,6 +39,11 @@ public class Array {
         return false;
     }
 
+    //show the chosen index
+    public Car pick(int index) {
+        return cars[index];
+    }
+
     @Override
     public String toString() {
         return Arrays.toString(cars);

@@ -14,5 +14,6 @@ public class ArrayTest {
         System.out.println(list.have(car3));
         System.out.println(list.show());
         System.out.println(list);
+        System.out.println(list.pick(0));
     }
 }
