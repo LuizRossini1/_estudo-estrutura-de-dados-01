@@ -4,7 +4,7 @@ public class ArrayTest {
     public static void main(String[] args) {
         var car1 = new Car("BMW");
         var car2 = new Car("Ferrai");
-        var car3 = new Car("Troller");
+        var car3 = new Car("Classic");
         var car4 = new Car("T4");
 
         var list = new Array();

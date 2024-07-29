@@ -1,5 +1,4 @@
 package DataStructure.Array;
-
 import java.util.Arrays;
 
 public class Array {
